@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+		'twist_to_twist_stamped = twist_converter.twist_to_twist_stamped:main',
         ],
     },
 )
